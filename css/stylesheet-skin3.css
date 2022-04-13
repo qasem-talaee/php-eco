@@ -1,0 +1,121 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Marketshop eCommerce HTML Template
+    Author: Harnish Design
+    Author URI: http://harnishdesign.net
+
+-----------------------------------------------------------------------------------*/
+ 
+/*===================================================================================*/
+/*  General
+/*===================================================================================*/
+a, a b, .articleHeader span a, .pagination > li > a { color:#01a161; }
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+	background-color:#01a161;
+	border-color:#01a161;
+}
+.owl-carousel.slideshowhome .owl-controls .owl-buttons .owl-prev:hover, .owl-carousel.slideshowhome .owl-controls .owl-buttons .owl-next:hover { background-color:#01a161; }
+a:hover, a b:hover, .category .tabs li a:hover, .sitemap li a:hover, .pagination > li > a:hover, .breadcrumb a:hover, .login-content .right a:hover, .box-category a:hover, .list-item a:hover, #blogArticle .articleHeader h1 a:hover, #blogCatArticles .articleHeader h3 a:hover, .tags-update .tags a:hover, .articleHeader span a:hover { color:#01a161; }
+/*===================================================================================*/
+/*  Header
+/*===================================================================================*/
+#header .htop { background-color:#eee; }
+#header .links > ul > li > a, #header .links > ul > li .wrap_custom_block > a, #header .links > ul > li.mobile, #header .links > ul > li.email, #language span, #currency span, #header #top-links > ul > li > a { color:#333; }
+#header .links > ul > li.wrap_custom_block > a b { border-color:#333 transparent transparent; }
+#header .links, #header .links > ul > li, #language, #currency, #header #top-links > ul > li, #header #top-links { border-color:#ccc; }
+#top .dropdown-menu li a:hover, #currency ul li .currency-select:hover, #language ul li .language-select:hover { color:#01a161; }
+/**===== Search Bar =====**/
+#header #search input { background:#f6f6f6; }
+/**===== Mini Cart =====**/
+#header #cart.open .heading span:after { border-color:transparent transparent #01a161; }
+#header #cart .heading .cart-icon:before, #header #cart .heading .cart-icon:after, #header #cart .dropdown-menu { border-color:#01a161; }
+#header #cart .heading .cart-icon { background:#01a161; }
+/*===================================================================================*/
+/*  Menu
+/*===================================================================================*/
+#menu {
+	background-color:#555;
+	border:none;
+}
+#menu .nav > li > a, #menu .navbar-header > span {
+	color:#fff;
+	font-size:14px;
+}
+#menu .nav > li > a.home_link { background-color:#01a161; }
+#menu .nav > li > a.home_link:hover {
+	background-color:#eeeeee;
+	color:#01a161;
+}
+#menu .nav > li > a.home_link span:before { border-color:transparent transparent #fff; }
+#menu .nav > li > a.home_link span:after { border-color: #fff; }
+#menu .nav > li > a.home_link span { background:#fff; }
+#menu .nav > li > a.home_link:hover span:before { border-color:transparent transparent #01a161; }
+#menu .nav > li > a.home_link:hover span:after { border-color: #01a161; }
+#menu .nav > li > a.home_link:hover span { background:#01a161; }
+#menu .nav > li.custom-link-right > a { background-color:#01a161; }
+#menu .nav > li.custom-link-right:hover > a {
+	background-color:#eeeeee;
+	color:#01a161;
+}
+#menu .nav > li.mega-menu > div, #menu .nav > li.categories > div, #menu .nav > li.mega-menu > div .submenu, #menu .nav > li.categories > div > .column > div, #menu .nav > li > .dropdown-menu, #menu .submenu { border-color: #01a161; }
+#menu .nav > li.sub:hover > a:after { border-bottom-color:#01a161; }
+#menu .nav > li:hover > a { color:#01a161; }
+#menu .nav > li.categories > div > .column > a, #menu .nav > li div > ul > li > a, #menu .nav > li.menu_brands > div > div a, #menu .custom_block, #menu .custom_block a { color:#222; }
+#menu .nav > li.categories > div > .column:hover > a, #menu .nav > li div > ul > li:hover > a, #menu .nav > li.mega-menu > div > .column:hover > a, #menu .nav > li.menu_brands > div > div a:hover, #menu .custom_block a:hover { color:#01a161; }
+#menu .nav > li.mega-menu > div > .column > a { color:#222; }
+/*===================================================================================*/
+/*  Feature box
+/*===================================================================================*/
+.custom-feature-box .feature-box { background:#eee; }
+.custom-feature-box .feature-box .title {
+	font-size:15px;
+	color:#01a161;
+}
+.custom-feature-box .feature-box p {
+	font-size:13px;
+	color:#777;
+}
+/*===================================================================================*/
+/*  Product Thumb
+/*===================================================================================*/
+.saving {
+	background:#62b959;
+	color:#fff;
+}
+.product-thumb .price, .product-info .price { color:#01a161; }
+.product-thumb .price-old { color:#999; }
+.product-thumb .button-group > button {
+	background-color:#eee;
+	color:#666;
+}
+.product-thumb .button-group > button:hover {
+	background-color:#01a161;
+	color:#fff;
+}
+.product-thumb .button-group .add-to-links button { color:#777; }
+.product-thumb .button-group .add-to-links button:hover { color:#000; }
+/*===================================================================================*/
+/*  Buttons
+/*===================================================================================*/
+.btn-primary { background-color:#01a161; }
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] { background-color:#555; }
+/*===================================================================================*/
+/*  Footer
+/*===================================================================================*/
+#footer .fpart-first { background-color:#191919; }
+#footer .fpart-first, #footer .fpart-first a { color:#999; }
+#footer .fpart-first a:hover { color:#01a161; }
+#footer h5 { color:#fff; }
+#footer #powered { border-bottom-color:#222; }
+#footer .fpart-second {
+	color:#666;
+	background-color:#111;
+}
+#footer .fpart-second a { color:#999; }
+#footer .fpart-second a:hover { color:#01a161; }
+/*media responsive*/
+.drop-icon { color:#333; }
+.left-top { background-color:#eee; }
+#menu .navbar-header > span > b:before { border-color: transparent transparent #fff; }
+#menu .navbar-header > span > b:after { border-color:#fff transparent transparent; }
+#menu .nav > li > span.submore:after { color:#fff; }

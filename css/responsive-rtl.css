@@ -1,0 +1,128 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Marketshop eCommerce HTML Template
+    Author: Harnish Design
+    Author URI: http://harnishdesign.net
+
+-----------------------------------------------------------------------------------*/
+ 
+@media screen and (max-width:991px) {
+/**===== Header =====**/
+#header.style2 #logo, #header #logo {
+float:none;
+}
+#header.style2 #cart {
+text-align:center;
+}
+#header.style2 #cart .dropdown-menu {
+right:50%;
+margin-right:-175px;
+}
+#header.style3 .col-sm-push-6 {
+right:auto;
+}
+#header.style3 .col-sm-pull-6 {
+left:auto;
+}
+#header.style3 #cart {
+text-align:right;
+}
+#header .links {
+border: medium none;
+float: none;
+}
+#language, #currency {
+border:none 0px;
+}
+.drop-icon {
+float:right;
+}
+/**===== Menu =====**/
+#menu .nav {
+text-align:right;
+}
+#menu .nav > li, #menu .nav > li.custom-link-right {
+float:none;
+}
+span.submore {
+right:auto;
+left:0;
+}
+span.submore:after {
+right:auto;
+left:0;
+}
+#menu > span {
+padding:0 8px 0 15px;
+}
+#menu > span:before, #menu > span:after {
+left:0;
+right:auto;
+}
+/**===== Carousel Slider Tabs =====**/
+.category .tabs {
+right:5px;
+left:auto;
+}
+/**===== Product Page =====**/
+.product-info .image {
+float:none;
+}
+/**===== Sitemap Page =====**/
+.sitemap li ul {
+margin-left:0px;
+margin-right:30px;
+}
+}
+@media (max-width: 767px) {
+/**===== Header =====**/
+#header #cart, #header.style3 #cart {
+text-align:center;
+}
+#header #cart .dropdown-menu {
+right:50%;
+margin-right:-175px;
+}
+.left-top #language, #currency {
+display:block;
+}
+#header #cart, #header #search, #header.style2 #cart, #header.style3 #search, #footer .powered_text, #footer .social, #footer .social a {
+float:none;
+}
+/**===== List Product =====**/
+.product-list .cart, .product-list .wishlist, .product-list .compare, .product-info > .left, .product-info .image-additional a {
+float:none;
+}
+.product-list .image {
+margin-left:0;
+}
+.category-list ul {
+float: none;
+width:auto;
+margin-left:0px;
+}
+.product-tab .tabs li {
+margin-left:15px;
+}
+#container .category-module h3 {
+text-align:right;
+}
+/**===== Footer =====**/
+#footer .column, #footer .contact {
+float:none;
+}
+}
+ @media screen and (max-width:320px) {
+/**===== Header =====**/
+#header #cart .dropdown-menu, #header.style2 #cart .dropdown-menu {
+margin-right:-125px;
+width:250px;
+}
+/**===== Product Page =====**/
+.product-info .cart div {
+float:none;
+}
+.product-info .cart div .wishlist {
+margin:0 0 0 15px;
+}
+}

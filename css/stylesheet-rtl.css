@@ -1,0 +1,224 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Marketshop eCommerce HTML Template
+    Author: MrCode.ir
+    Author URI: http://www.20script.ir
+
+-----------------------------------------------------------------------------------*/
+div {
+	direction:rtl;
+}
+
+.rev_slider_wrapper, div.rev_slider_wrapper, .rev_slider_wrapper div {
+	direction : ltr;
+}
+/*===================================================================================*/
+/*  Layout
+/*===================================================================================*/
+#container { text-align:right; }
+/*===================================================================================*/
+/*  Header
+/*===================================================================================*/
+#header .links { float:right; }
+#header #welcome { float:left; }
+#header #welcome a {
+	border-right:none;
+	border-left:1px dotted #5B9AD4;
+}
+.wrapper-box #header #welcome { border-right:1px dotted #7B97B2; }
+/**===== Mini Cart =====**/
+#header #cart { text-align:left; }
+#header #cart .dropdown-menu {
+	right:auto;
+	left:0;
+}
+#header #cart .heading .cart-icon {
+	float:right;
+	margin-left: 5px;
+}
+#header #cart .checkout, .mini-cart-total { text-align:left; }
+#header.style2 #cart { text-align:right; }
+#header.style2 #cart .dropdown-menu {
+	right:0;
+	left:auto;
+}
+#header.style3 #cart { text-align:left; }
+/**===== Search Bar =====**/
+#header .button-search {
+	left:0;
+	right:auto;
+}
+#header #search input { padding:0 10px 0 36px; }
+/**===== Language & Currency =====**/
+#language, #currency {
+	float:right;
+	border-left:1px dotted #5B9AD4;
+	border-right:none;
+}
+#language ul, #currency ul {
+	right:0;
+	left:auto;
+}
+#top .dropdown-menu li a, #currency ul li .currency-select, #language ul li .language-select { text-align:right; }
+#language img, #header .links > ul > li .fa-phone, #header .links > ul > li .fa-envelope {
+	margin-right:0px;
+	margin-left:5px;
+}
+#header .links > ul > li.wrap_custom_block > a b {
+	margin-left:0px;
+	margin-right:3px;
+}
+/**===== Menu =====**/
+#menu .nav > li.mega-menu > div > .column a span, #menu .nav > li.categories > div > .column a span, #menu .nav > li > div > ul li a span, #menu .nav > li.custom-link-right {float:left;left: 8px;right: auto;}
+#menu .nav > li > .dropdown-menu li .dropdown-menu { right:100%; }
+/*===================================================================================*/
+/*  Category Accordion
+/*===================================================================================*/
+.box-category .down {
+	right:auto;
+	left:0;
+}
+.box-category > ul > li ul {
+	padding-left:0px;
+	padding-right: 10px;
+}
+.box-category > ul > li ul li a {
+	margin-left: 16px;
+	margin-right:0;
+}
+.box-category ul li a, .list-item li a {
+	padding:5px 12px 5px 0;
+	background:url("../image/bullet-dark-rtl.png") no-repeat right 11px;
+}
+.box-category > ul > li ul li a:hover, .list-item a:hover {
+	margin-left: 16px;
+	margin-right:0;
+}
+/*===================================================================================*/
+/*  Product Item for Left and Right Panel
+/*===================================================================================*/
+#column-right .side-item .product-thumb .image, #column-left .side-item .product-thumb .image {
+	float:right;
+	margin-right:0px;
+	margin-left: 10px;
+}
+#column-right .side-item .product-thumb .caption, #column-left .side-item .product-thumb .caption {
+	text-align:right;
+	float:right;
+}
+/*===================================================================================*/
+/*  List Product
+/*===================================================================================*/
+.product-list .image {
+	float:right;
+	margin-left: 20px;
+	margin-right:0px;
+}
+.product-list .product-thumb .button-group .btn-primary, .product-list .product-thumb .button-group .add-to-links { float:right; }
+.product-list .product-thumb .button-group .btn-primary {
+	margin-right:auto;
+	margin-left:5px;
+}
+#list-view, #grid-view {
+	margin-right:auto;
+	margin-left:10px;
+}
+/*===================================================================================*/
+/*  Product Page
+/*===================================================================================*/
+.product-info .cart div { float:right; }
+.product-info .cart div .wishlist {
+	margin-left:auto;
+	margin-right:15px;
+}
+.product-info .cart div .qty {
+	float: right;
+	margin-left:20px;
+	margin-right:0;
+}
+.qty .control-label {
+	margin-left: 10px;
+	margin-right:0px;
+	float:right;
+}
+#tab-description ul {
+	margin-left:auto;
+	margin-right:15px;
+}
+.product-info .image-additional a {
+	float:right;
+	margin-right:7px;
+	margin-left:0px;
+}
+.category-list ul {
+	float:right;
+	margin-left: 12px;
+	margin-right:0px;
+}
+.product-tab .tabs li {
+	float:right;
+	margin-right:0px;
+}
+.manufacturer-list ul { float:right; }
+/*===================================================================================*/
+/*  Tabs
+/*===================================================================================*/
+.nav-tabs > li > a {
+	border-radius:0px;
+	margin-right:auto;
+	margin-left:-2px;
+}
+.category-module .tabs {
+	left:70px;
+	right:auto;
+}
+.category-module .tabs li { float:right; }
+/*===================================================================================*/
+/*  Five Grid Columns
+/*===================================================================================*/
+.col-xs-5ths, .col-sm-5ths, .col-md-5ths, .col-lg-5ths { float: right; }
+/*===================================================================================*/
+/*  Sitemap Page
+/*===================================================================================*/
+.sitemap li a { padding:5px 0px 5px 8px; }
+.sitemap li ul {
+	border-right:1px solid #ccc;
+	border-left:none;
+	margin:0px 4px 0px 0px;
+}
+.sitemap li ul li { padding:0px 22px 0px 0; }
+.sitemap li ul li:before {
+	left: auto;
+	right: 0px;
+	top:15px;
+}
+/*===================================================================================*/
+/*  Footer
+/*===================================================================================*/
+#footer .contact > ul > li > .fa {
+	margin-right:0px;
+	margin-left:10px;
+}
+#footer .social a { float:right; }
+/*===================================================================================*/
+/*  Extra
+/*===================================================================================*/
+.alert {
+	padding-left:15px;
+	padding-right:50px;
+}
+.alert .fa { right: 18px; }
+.text-left { text-align:right; }
+.text-right {text-align: right;}
+.owl-carousel .owl-wrapper-outer { direction:ltr }
+.owl-theme .owl-controls .owl-buttons div.owl-prev {
+	right:auto;
+	left:0px;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-next {
+	right:auto;
+	left:32px;
+}
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group > .btn, .input-group-btn:last-child > .dropdown-toggle, .input-group-btn:first-child > .btn:not(:first-child), .input-group-btn:first-child > .btn-group:not(:first-child) > .btn, .input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child > .btn, .input-group-btn:first-child > .btn-group > .btn, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
+border-radius:0px!important;
+}

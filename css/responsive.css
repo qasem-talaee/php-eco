@@ -1,0 +1,459 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Marketshop eCommerce HTML Template
+    Author: Harnish Design
+    Author URI: http://harnishdesign.net
+
+-----------------------------------------------------------------------------------*/
+
+@media (max-width: 1199px) {
+/**===== Layout =====**/
+.main-wrapper {
+padding:0 20px;
+}
+#column-right .side-item .product-thumb .caption, #column-left .side-item .product-thumb .caption {
+width:152px;
+}
+}
+ @media only screen and (min-width:992px) {
+/**===== footer =====**/
+#footer ul, .left-top {
+display:block!important;
+}
+}
+ @media (max-width: 991px) {
+body {
+-webkit-text-size-adjust: auto;
+}
+/**===== Layout =====**/
+.main-wrapper {
+margin:0px;
+padding:0 10px;
+}
+.wrapper-box {
+margin:0;
+}
+/**===== Header =====**/
+#header .header-row {
+text-align:center;
+padding:30px 0;
+}
+#header #logo a img {
+display:inline-block;
+}
+.table-container .col-table-cell {
+float:left;
+vertical-align:top;
+}
+.drop-icon {
+width:45px;
+height:35px;
+line-height:35px;
+text-align:center;
+font-size:23px;
+cursor:pointer;
+float:left;
+display:inline-block;
+color:#fff;
+}
+.left-top {
+min-width:160px;
+background:#3E7CB4;
+position:absolute;
+top:35px;
+z-index:99;
+padding:5px 0;
+display:none;
+}
+.left-top #language, .left-top #currency {
+float:none;
+border:none!important;
+display:block;
+}
+.left-top #language > .btn-group, #currency > .btn-group {
+display:block;
+}
+#header .links {
+float:none;
+border:none;
+}
+#header .links > ul > li {
+float:none;
+display:block;
+border:none!important;
+line-height:30px;
+}
+#header .links, #language, #currency, #header #top-links {
+border:none!important;
+}
+#header #search {
+position:relative;
+margin-top:25px;
+}
+#header #cart {
+margin-top:25px;
+text-align:left;
+}
+#header #cart .dropdown-menu {
+right:auto;
+left:0;
+}
+#header.style2 #cart {
+margin-top:auto;
+margin-bottom:15px;
+text-align:center;
+}
+#header.style2 #cart .dropdown-menu {
+left: 50%;
+margin-left: -210px;
+}
+#header.style3 #cart {
+text-align:left;
+}
+
+/**===== Menu =====**/
+#menu .navbar-header {
+float:none;
+}
+#menu .navbar-nav {
+margin:0px;
+}
+#menu .navbar-header > span {
+text-transform:uppercase;
+font-size:16px;
+padding:0px 15px 0px 8px;
+height:45px;
+line-height:45px;
+text-align:center;
+margin:0;
+cursor: pointer;
+display:inline-block;
+position:relative;
+}
+#menu .navbar-header > span > b {
+display:inline-block;
+}
+#menu .navbar-header > span > b:after {
+clear:both;
+content:' ';
+display:block;
+width:0;
+height:0;
+border-style:solid;
+border-color:#555 transparent transparent transparent;
+position:absolute;
+border-width:5px 6px 0px 6px;
+bottom:48%;
+margin:0 0 -6px 0px;
+opacity:0.7;
+}
+#menu .navbar-header > span > b:before {
+clear:both;
+content:' ';
+display:block;
+width:0;
+height:0;
+border-style:solid;
+border-color:transparent transparent #555 transparent;
+position:absolute;
+border-width:0px 6px 5px 6px;
+top:49%;
+margin:-6px 0 0 0px;
+opacity:0.7;
+}
+#menu {
+padding:0;
+height:auto;
+text-align:center;
+}
+#menu .navbar-nav {
+text-align:left;
+}
+#menu .nav {
+padding:0;
+text-align:left;
+box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+}
+#menu .nav > li {
+float:none;
+padding:0px;
+display:block;
+height:auto;
+}
+#menu .nav > li > a {
+line-height:35px;
+}
+#menu .nav > li > div {
+position:relative;
+}
+#menu .nav > li > div > ul {
+display:block;
+width:auto;
+}
+#menu .nav > li ul + ul {
+padding-left:0px;
+}
+#menu .nav > li > .dropdown-menu ul > li {
+position:relative;
+}
+#menu .nav > li.mega-menu > div {
+width:100%;
+}
+#menu .nav > li.mega-menu.dropdown {
+position: relative;
+}
+#menu .nav > li div > ul > li > a > span {
+display:none;
+}
+span.submore:after {
+display: block;
+position: absolute;
+right: 0;
+top:0px;
+width: 30px;
+height:32px;
+line-height:32px;
+font-size:22px;
+text-align:center;
+cursor:pointer;
+z-index:1010;
+content:'+';
+font-family:Arial, Helvetica, sans-serif;
+color:#555;
+opacity:0.6;
+}
+span.submore.plus:after {
+content:'-';
+}
+#menu .nav > li.menu_brands.dropdown {
+position:relative;
+}
+#menu .nav > li.mega-menu > div {
+min-width:inherit;
+position:relative;
+}
+#menu .nav > li.mega-menu > div > .column {
+width:auto;
+display:block;
+margin:0;
+}
+#menu .nav > li.mega-menu > div > .column > div {
+display:none;
+position:relative;
+}
+#menu .nav > li.mega-menu > div > .column > div ul {
+display:block;
+}
+#menu .nav > li.mega-menu > div > .column a, #menu .nav > li > div > ul li a, #menu .nav > li.mega-menu > div > .column > div > ul > li > a {
+width:auto;
+padding:7px 0;
+margin:0;
+}
+#menu .nav > li.sub:hover > a:after {
+display:none;
+}
+#menu .nav > li.custom-link-right {
+float:none;
+}
+#menu .nav > li > .dropdown-menu, #menu .nav > li > .dropdown-menu li .dropdown-menu {
+box-shadow:none;
+float:none;
+width:100%;
+position:relative;
+min-width:inherit;
+margin-top:0px;
+left:auto;
+border:0px none;
+}
+#menu .nav > li .dropdown-menu ul {
+display:block;
+margin:0 10px;
+}
+
+/**===== Product Item for Left and Right Panel =====**/
+#column-right .side-item .product-thumb .caption, #column-left .side-item .product-thumb .caption {
+max-width:98px;
+}
+
+/**===== Fotter =====**/
+#footer .fpart-first {
+padding-top:30px;
+padding-bottom:10px;
+}
+#footer .column, #footer .contact, #footer .about_details {
+margin-bottom:20px;
+}
+#footer .contact ul li {
+float:left;
+width:30%;
+}
+#footer .contact ul li + li {
+margin:0 0 0 4%;
+}
+#footer .powered_text, #footer .social {
+float:none!important;
+}
+#footer .social {
+text-align:center;
+padding:12px 0 0;
+margin:0px!important;
+}
+#footer .social a {
+float:none;
+display:inline-block;
+}
+#powered {
+text-align:center;
+width:100%;
+line-height:normal;
+padding-top:10px;
+height:auto;
+}
+#custom_side_block, #facebook, #twitter_footer, #video_box {
+display:none;
+}
+
+/**===== Product Page =====**/
+.product-list .left {
+width:auto;
+float:none;
+}
+.product-info > .left {
+float:none;
+margin-right:0px;
+}
+.product-info > .left + .right {
+margin-left:auto;
+}
+.product-info .image {
+float:none;
+}
+.mousetrap {
+width:99%!important;
+}
+#cloud-zoom-big {
+width:99%!important;
+}
+#wrap #zoom1 img {
+display:inline-block!important;
+}
+.product-info .image-additional {
+width:auto;
+margin-bottom:10px;
+max-width:none;
+}
+.product-info .image-additional a {
+display:inline-block;
+float:none;
+}
+
+/**===== Tabs =====**/
+#container .category-module h3 {
+padding:0 0 30px 0;
+text-align:center;
+}
+.category-module .tabs {
+left:5px;
+padding:0;
+right:auto;
+}
+.category-module .tabs li a {
+font-size:11px;
+padding:0 5px;
+}
+.category-module .tabs li a.selected {
+padding:0 5px;
+}
+.category-module .tabs li.active a {
+padding-bottom:2px;
+line-height:22px;
+}
+.table-container .col-table-cell {
+padding:0px;
+}
+}
+ @media (max-width: 767px) {
+/**===== Header =====**/
+#header #cart, #header.style2 #cart, #header.style3 #cart {
+text-align:center;
+}
+#header #cart .dropdown-menu {
+left:50%;
+margin-left:-210px;
+}
+/**===== Tabs =====**/
+#container .category-module .owl-theme .owl-controls .owl-buttons div {
+top:-75px;
+}
+/**===== Footer =====**/
+#footer .contact ul li {
+float:none;
+width:auto;
+}
+#footer .contact ul li + li {
+margin:12px 0 0 0;
+}
+#footer h5 {
+margin:0px 0px 5px;
+}
+/**===== Forms =====**/
+.input-group.quantity .form-control {
+float:none;
+}
+.input-group.quantity .input-group-btn, .input-group.quantity .form-control {
+display:block
+}
+}
+ @media screen and (max-width:480px) {
+/**===== header =====**/
+#header #cart .dropdown-menu, #header.style2 #cart .dropdown-menu {
+left:50%;
+margin-left:-155px;
+width:310px;
+}
+/**===== Product Page =====**/
+.product-info .cart {
+text-align:center;
+}
+.product-info .cart div {
+float:none;
+}
+.product-info .cart > div {
+margin-bottom:10px;
+}
+.product-info .cart div .qty {
+float:none;
+display:inline-block;
+}
+/**===== Tabs =====**/
+.htabs {
+padding-left:0;
+}
+.htabs a, .nav > li > a {
+font-size:11px;
+padding:7px 5px 6px 5px;
+}
+.category-module .tabs li {
+line-height:26px;
+}
+}
+
+/**===== Five Grid Columns =====**/
+@media (min-width: 768px) {
+.col-sm-5ths {
+width: 20%;
+float: left;
+}
+}
+@media (min-width: 992px) {
+.col-md-5ths {
+width: 20%;
+float: left;
+}
+}
+@media (min-width: 1200px) {
+.col-lg-5ths {
+width: 20%;
+float: left;
+}
+}
